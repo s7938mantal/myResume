@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
 	background: url(../images/room.jpg);
 	background-size: cover;
@@ -12,7 +16,7 @@ body {
 }
 
 p {
-    font-size: 75px;
+    font-size: 20px;
     color: black;
 }
 
@@ -24,38 +28,37 @@ p {
 
 h1 {
 	color: #1d198b;
-	font-size: 150px;
-    padding: 10px;
+	font-size: 50px;
+  padding: 10px;
 
 }
 
 .header p {
-  font-size: 80px;
+  font-size: 20px;
 }
 
 .left {
-    width: 45%;
-    float: left;
-    text-align: right;
+  width: 45%;
+  float: left;
+  text-align: right;
+
 }
 
 .mid  {
 	width: 10%;
-  	font-size: 0px;
 	float: left;
- 	margin: 10px;
  	margin-top: 0px;
- 	margin-bottom:px;
-	text-align: center;
+ 	text-align: center;
 }
 
 .mid p{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .right {
-    width: 30%;
+    width: 35%;
     float: left;
+    margin-right:10%;
 }
 
 .left div{
@@ -65,13 +68,10 @@ h1 {
 }
 
 
-#aa {
-	width: 100px;
-}
-
 #clock-0 {
 	background-image: url(../images/wall.jpg);
-	
-	
+}
 
+.right img {
+  width: 100%;
 }
