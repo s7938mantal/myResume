@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	background: url(../images/room.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;  
+}
+
+p {
+    font-size: 75px;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px
+}
+
+h1 {
+	color: #1d198b;
+	font-size: 150px;
+    padding: 10px;
+
+}
+
+.header p {
+  font-size: 80px;
+}
+
+.left {
+    width: 45%;
+    float: left;
+    text-align: right;
+}
+
+.mid  {
+	width: 10%;
+  	font-size: 0px;
+	float: left;
+ 	margin: 10px;
+ 	margin-top: 0px;
+ 	margin-bottom:px;
+	text-align: center;
+}
+
+.mid p{
+  margin-bottom: 100px;
+}
+
+.right {
+    width: 30%;
+    float: left;
+}
+
+.left div{
+  margin: 30px;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+
+#aa {
+	width: 100px;
+}
+
+#clock-0 {
+	background-image: url(../images/wall.jpg);
+	
+	
+
+}
