@@ -1,128 +1,142 @@
-<!DOCTYPE html>
-<html lang='en-US'>
-	<head>
-		<meta charset='uft-8'>
-		<meta name="author" content="Matt Wang" >
-		<title>Matt's Resume_0425_v2</title>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script scr="scripts/main.js"></script>
-		
-	</head>
-	<body>
-		<div class="clock-box" id="clock-0">
-			<div class="clock-box-2">
-				<div id="clock">
-					<div id="time">this is time</div>
-					<div id="date">this is date</div>
-					<div id="day"><span>this is day</span></div>
-				</div>
-			</div>
-			<div class="clock-btn">
-				<a href="" class="o-btn" onclick="start()"><i class="fas fa-power-off"></i></a>
-				<a href="" class="o-btn" onclick="stop()"><i class="fas fa-ban"></i></a>
-			</div>
-		</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <div class="header">
-		  <h1>Matt Wang</h1>
-		  <p>I am an engineer who likes beautiful things.</p>
-		  <p>Those beautiful things built up in science is even cooler to me.</p>
+    <title>Boo</title>
+  </head>
+  <body>
+    <h1>Boo</h1>
+
+    <blockquote class="blockquote">
+      <p>AWFAEFAEF</p>
+      <p class="blockquote-footer">MATTTTTT</p>
+    </blockquote>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls=" navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+<!-- Main -->
+    <div class="container">
+      <div class="timeline-section ">
+        <div class="row timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
         </div>
-
-        <div class="left">
-        	<div id="now">
-        		<p>HERE  I AM !</p>
-        		<p>Full experience in laptop design.</p>
-        		<p>Knowledge in several types of material process.</p>
-        		<P>Mechanical design with 2D/3D tools.</P>
-        		<P>Experiences in industrial/consumer products.</P>
-        		<P>Self-learning HTML, CSS, Javascript and Python.</P>
-        		<P>Native Mandarin and proficiency English level.</P>
-        	</div>
-        	<div id="iec">
-        		<p>INVENTEC CORPORATION</p>
-        		<p>iIOT Center Mechanical Engineer</p>
-        		<p>Mechanical design in industrial IOT products.</p>
-        		<p>Joint design with clients and provide solution.</p>
-        		<p>Main project: We try to build a smart microwave which can sense the food and heat it partialy.</p>
-        	</div>
-        	<div id="wistron">
-        		<p>WISTRON CORPORATION</p>
-        		<p>Notebook Mechanical Engineer</p>
-        		<p>Several types of laptop design: Touch screen/Narrow border/360° 2-in-1/Chrome book.</p>
-        		<p>Several types of material process experiences.</p>
-        		<p>Molding trials experiences in China factory.</p>
-        		<p>Knowledge in tolerance analysis and 6 sigma.</p>
-        		<p>Main projects: Dell inspiron 5000/7000 series.</p>
-        	</div>
-        	<div id="marine">
-        		<p>MILITARY SERVICE</p>
-        		<p>2012-2013 R.O.C Marine Corp</p>
-        	</div>
-        	<div id="yzu">
-        		<p>YUAN ZE UNIVERSITY</p>
-        		<p>Department of Mechanical Engineering</p>
-        		<p>Bachelor of Science</p>
-        		<p>-Project: Robot shooting competition.</p>
-        		<p>-Project: Basketball stand structure design.</p>
-        		<p>-An independent study on car security system.</p>
-        		<p>-Fuel cell study: Cu-based catalysts prepared for steam reforming of methanol in a micro foam reactor.</p>
-        	</div>
-        	<div>
-        		<p>I WAS BORN !</p>
-        	</div>
-        	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="row flex-row-reverse timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
         </div>
-
-        <div class="mid">
-        	<p>2018</p>
-        	<p>2017</p>
-        	<p>2014</p>
-        	<p>2012</p>
-        	<p>2008</p>
-        	<p>1990</p>	
+        <div class="row timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
         </div>
-
-        <div class="right">
-        	<img src="images/front_end.png">
-        	<br>
-        	<img src="images/iot.png">
-        	<br>
-        	<img src="images/production.png">
-            <br>
-        	<img src="images/marine.png">
-        	<br>
-        	<img src="images/growup.png">
-        	<br>
-        	<img src="images/giphy.gif">
+        <div class="row flex-row-reverse timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
         </div>
-
-        
-        <!-- 幻燈片版本
-
-        <div class="slides_milestone">
-            <ol>
-                <li>collage</li>
-                <li>serve</li>
-                <li>Wistron</li>
-                <li>IEC</li>
-            </ol>
+        <div class="row timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
         </div>
-        
-		<div class="slides_img">
-            <a href="#"><img src="images/00_collage.jpg"></a>
-            <a href="#"><img src="images/01_serve.jpg"></a>
-            <a href="#"><img src="images/02_wistron_pogo.jpg"></a>
-		</div>
+        <div class="row flex-row-reverse timeline-point">
+          <div class="col-sm-6">
+            <h3>Now</h3>
+            <p>im trying to find a new job.</p>
+          </div>
+          <div class="col-sm-6">
+            <div class="box">
+              1
+            </div>
+          </div>
+        </div>              
 
-		-->
+        </div>                
+      </div>
+                  
 
-		<script src="scripts/main.js"></script>
+                           
+    </div>
 
-	</body>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

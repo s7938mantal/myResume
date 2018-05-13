@@ -1,0 +1,48 @@
+.box {
+	height: 300px;
+	background-color: grey;
+	background-size: cover;
+	background-position: center center;
+}
+
+.timeline-section {
+	position: relative;
+}
+
+.timeline-section:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	width: 3px;
+	background-color: black;
+}
+
+.timeline-point {
+	position: relative;
+}
+
+.timeline-point::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 3px solid black;
+	transform: translate(-50%);
+	background-color: white;
+	z-index: 1;
+}
+
+@media (max-width: 576px) {
+	.timeline-section:after,
+	.timeline-point::after{
+		display: none;
+	}
+
+}
