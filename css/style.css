@@ -1,48 +1,72 @@
-.box {
-	height: 300px;
-	background-color: grey;
-	background-size: cover;
-	background-position: center center;
+body {
+/*	padding-top: 3rem;*/
+	padding-bottom: 3rem;
+}
+.header {
+	text-align: center;
+	padding: 5rem;
+	background-color: #0080ff;
 }
 
-.timeline-section {
-	position: relative;
+.header p, h1{
+	color:white;
 }
 
-.timeline-section:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 50%;
-	transform: translate(-50%);
-	width: 3px;
-	background-color: black;
+main {
+	padding-top: 5rem;
 }
 
-.timeline-point {
-	position: relative;
+
+.skill-box h2 {
+	line-height: 5rem;
 }
 
-.timeline-point::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 50%;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	border: 3px solid black;
-	transform: translate(-50%);
-	background-color: white;
-	z-index: 1;
+.skill-box  p {
+	line-height: 1rem;
 }
 
-@media (max-width: 576px) {
-	.timeline-section:after,
-	.timeline-point::after{
-		display: none;
-	}
 
+/*----------------skill 2-row style--------------------*/
+/*.skill-text-box p{
+	line-height: 1rem;
+}*/
+
+/*.skill .col-lg-4{
+	margin-top: 2rem;
+	text-align: center;
 }
+
+.skill .col-lg-4 h2{
+	line-height: 4rem;
+}
+
+.skill .col-lg-4 p{
+	line-height: .5rem;
+}
+
+
+.skill-img-box{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.skill-img-{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}*/
+/*----------------skill 2-row style--------------------*/
+
+
+.milestone-img {
+	max-width: 100%;
+}
+
+
+.milestone-divider {
+	margin: 5rem auto;
+}
+
+
