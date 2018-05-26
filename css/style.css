@@ -1,67 +1,52 @@
 body {
 /*	padding-top: 3rem;*/
-	padding-bottom: 3rem;
+	/*padding-bottom: 3rem;*/
 }
 .header {
 	text-align: center;
-	padding: 5rem;
-	background-color: #0080ff;
+	padding-bottom: 2rem;
+	background-color: #4472c4;
+	background-color: #54b9ca;
 }
 
-.header p, h1{
+.header p, h1, span{
 	color:white;
 }
 
-main {
-	padding-top: 5rem;
+footer {
+	background-color: #4472c4;
+	background-color: #54b9ca;
 }
 
-
 .skill-box h2 {
-	line-height: 5rem;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
 }
 
 .skill-box  p {
-	line-height: 1rem;
+	line-height: .8rem;
 }
 
-
-/*----------------skill 2-row style--------------------*/
-/*.skill-text-box p{
-	line-height: 1rem;
-}*/
-
-/*.skill .col-lg-4{
-	margin-top: 2rem;
-	text-align: center;
+.skill-img {
+	height: 120px;
 }
 
-.skill .col-lg-4 h2{
-	line-height: 4rem;
+.blue-circle {
+	background-color: #54b9ca;
+	width: 1rem;
+	height: 1rem;
 }
 
-.skill .col-lg-4 p{
-	line-height: .5rem;
+.green-circle {
+	background-color: #54ca65;
+	width: 1rem;
+	height: 1rem;
 }
 
-
-.skill-img-box{
-	width: 200px;
-	height: 200px;
-	margin: auto;
-}
-
-.skill-img-{
-	width: auto;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-}*/
-/*----------------skill 2-row style--------------------*/
-
-
-.milestone-img {
-	max-width: 100%;
+.yellow-circle {
+	background-color: #fde308;
+	width: 1rem;
+	height: 1rem;
 }
 
 
@@ -69,4 +54,23 @@ main {
 	margin: 5rem auto;
 }
 
+.btn-bg {
+	background-color: #54b9ca;
+}
 
+.progress-bg {
+	background-color: #54b9ca;
+}
+
+.progress-bg-green {
+	background-color: #54ca65;
+}
+
+.progress-bg-yellow {
+	background-color: #fde308;
+}
+/*#milestone-carouse3 p, h5{
+	text-align: start;
+}
+
+*/
