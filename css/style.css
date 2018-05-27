@@ -109,11 +109,11 @@ footer {
 }
 
 #milestone-4 {
-	padding-top: 170px;
+	padding-top: 180px;
 }
 
 #milestone-5 {
-	padding-top: 120px;
+	padding-top: 160px;
 }
 
 #milestone-6 {
@@ -121,7 +121,8 @@ footer {
 }
 
 .timeline-head {
-	background-color:#54b9ca;
+	background: linear-gradient(to bottom, #54b9ca 60%, white) ;
+	background-color: #54b9ca; 
 	line-height: 2.5rem; 
 	/*border-top-right-radius: 20%;
 	border-top-left-radius: 20%;*/
@@ -130,8 +131,22 @@ footer {
 }
 
 .timeline-year {
-	background-color: ;
+	/*background: linear-gradient(to bottom,#54b9ca 1%,white) ;*/
 	list-style-type: none;
 	transform: translateX(-16px);
 	font-size: 1rem;
+}
+
+#line {
+	height: 5px;
+	background-color: black;
+}
+
+@media (min-width: 576px) {
+	#milestone-1,
+	#milestone-2,
+	#milestone-3,
+	#milestone-4,
+	#milestone-5,
+	#milestone-6,
 }
