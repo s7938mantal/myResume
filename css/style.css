@@ -93,7 +93,8 @@ footer {
 }*/
 
 .timeline {
-	/*background-color:#54b9ca;*/ 
+	color:#54b9ca; 
+	font-weight: ;
 }
 
 #milestone-1 {
@@ -121,7 +122,7 @@ footer {
 }
 
 .timeline-head {
-	background: linear-gradient(to bottom, #54b9ca 60%, white) ;
+	/*background: linear-gradient(to bottom, #54b9ca 60%, white) ;*/
 	background-color: #54b9ca; 
 	line-height: 2.5rem; 
 	/*border-top-right-radius: 20%;
