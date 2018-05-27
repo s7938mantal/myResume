@@ -97,11 +97,11 @@ footer {
 }
 
 #milestone-1 {
-	padding-top: 180px;
+	padding-top: 220px;
 }
 
 #milestone-2 {
-	padding-top: 200px;
+	padding-top: 240px;
 }
 
 #milestone-3 {
@@ -109,11 +109,11 @@ footer {
 }
 
 #milestone-4 {
-	padding-top: 180px;
+	padding-top: 240px;
 }
 
 #milestone-5 {
-	padding-top: 160px;
+	padding-top: 240px;
 }
 
 #milestone-6 {
@@ -137,11 +137,8 @@ footer {
 	font-size: 1rem;
 }
 
-#line {
-	height: 5px;
-	background-color: black;
-}
 
+/*
 @media (min-width: 576px) {
 	#milestone-1,
 	#milestone-2,
@@ -149,4 +146,8 @@ footer {
 	#milestone-4,
 	#milestone-5,
 	#milestone-6,
-}
+}*/
+
+/*.rwd-space {
+	height: 200px;
+}*/
