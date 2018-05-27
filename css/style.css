@@ -4,8 +4,8 @@ body {
 }
 .header {
 	text-align: center;
-	padding-bottom: 2rem;
-	background-color: #4472c4;
+	padding-bottom: 1rem;
+	padding-top:2rem;
 	background-color: #54b9ca;
 }
 
@@ -14,7 +14,6 @@ body {
 }
 
 footer {
-	background-color: #4472c4;
 	background-color: #54b9ca;
 }
 
@@ -51,7 +50,11 @@ footer {
 
 
 .milestone-divider {
-	margin: 5rem auto;
+	margin: 4rem auto;
+}
+
+.milestone li {
+	line-height: 1.8rem;
 }
 
 .btn-bg {
@@ -69,8 +72,66 @@ footer {
 .progress-bg-yellow {
 	background-color: #fde308;
 }
-/*#milestone-carouse3 p, h5{
-	text-align: start;
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, .3);
 }
 
-*/
+/*.timeline-container {
+	position: relative;
+}
+
+.milestone {
+	position: relative;
+}*/
+
+/*.scrollspy-example {
+	position: relative;
+	height: 200px;
+	margin-top: .5rem;
+	overflow: auto;
+}*/
+
+.timeline {
+	/*background-color:#54b9ca;*/ 
+}
+
+#milestone-1 {
+	padding-top: 180px;
+}
+
+#milestone-2 {
+	padding-top: 200px;
+}
+
+#milestone-3 {
+	padding-top: 240px;
+}
+
+#milestone-4 {
+	padding-top: 170px;
+}
+
+#milestone-5 {
+	padding-top: 120px;
+}
+
+#milestone-6 {
+	padding-top: 0px;
+}
+
+.timeline-head {
+	background-color:#54b9ca;
+	line-height: 2.5rem; 
+	/*border-top-right-radius: 20%;
+	border-top-left-radius: 20%;*/
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+}
+
+.timeline-year {
+	background-color: ;
+	list-style-type: none;
+	transform: translateX(-16px);
+	font-size: 1rem;
+}
